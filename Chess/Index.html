@@ -1,8 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>test</title>
     <style>
+        *{
+            padding:0;
+            margin:0;
+        }
+        #chess{
+            position: absolute;
+            left:50%;
+            top:50%;
+            transform:translate(-50%,-50%);
+        }
         table{
             border: 1px solid;
         }
@@ -16,7 +27,7 @@
     </style>
 </head>
 <body>
-<div>
+<div id="chess">
 <table>
     <tr>
         <td class="cell1">&#9814</td>
